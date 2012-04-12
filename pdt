@@ -1,0 +1,25 @@
+server {
+  client_max_body_size 20M;
+  listen                80;
+  server_name           qm.ptpc.com.au;
+  root                  /var/www/qm.ptpc.com.au/;
+  location ~* \.(jpg|jpeg|gif|css|png|js|ico)$ {
+    access_log          off;
+    expires             max;
+  }
+  location / {
+    access_log          off;
+    proxy_pass          http://localhost:8000;
+    proxy_set_header    X-Real-IP $remote_addr;
+    proxy_set_header    Host $host;
+    proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
+  }
+location ^~ /sites/default/files/styles/ {
+            index  index.php index.html;
+
+            if (!-e $request_filename) {
+                rewrite  ^/(.*)$  /index.php?q=$1  last;
+                break;
+            }
+        }
+}

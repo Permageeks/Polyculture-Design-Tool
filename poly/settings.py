@@ -12,7 +12,6 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-  		 	   		  
         'NAME': 'polydb',                      # Or path to database file if using sqlite3.
         'USER': 'django_user',                      # Not used with sqlite3.
         'PASSWORD': 'Ginkgoale5',                  # Not used with sqlite3.
@@ -82,7 +81,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 't_vf6#5l(+jhzh9o7!ll2_1j^3foc)c256%gc7w+%z1t@lby8c'
+SECRET_KEY = '5325_$o4#m1!xl$(b#ch=jybffboe87+8ri5k2orxgc(h3b&amp;+*'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
