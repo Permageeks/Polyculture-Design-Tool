@@ -1,0 +1,280 @@
+Number|Title|Author|InternetAddress|Rating|In stock|Comments|Publisher|Date of publication|ISBN|PullOut
+1|RHS Dictionary of Plants plus Supplement. 1956|F. Chittendon.||3|1|Comprehensive listing of species and how to grow them. Somewhat outdated, it has been replaces in 1992 by a new dictionary (see [200]).|Oxford University Press|1951|-|0
+2|Sturtevant's Edible Plants of the World.|Hedrick. U. P.||3|1|Lots of entries, quite a lot of information in most entries and references.|Dover Publications|1972|0-486-20459-6|1
+3|Growing Unusual Fruit.|Simmons. A. E.||3|1|A very readable book with information on about 100 species that can be grown in Britain (some in greenhouses) and details on how to grow and use them.|David and Charles|1972|0-7153-5531-7|0
+4|A Modern Herbal.|Grieve.||4|1|Not so modern (1930's?) but lots of information, mainly temperate plants.|Penguin|1984|0-14-046-440-9|1
+5|Food for Free.|Mabey. R.||2|1|Edible wild plants found in Britain. Fairly comprehensive, very few pictures and rather optimistic on the desirability of some of the plants.|Collins|1974|0-00-219060-5|0
+6|Plants with a Purpose.|Mabey. R.||4|1|Details on some of the useful wild plants of Britain. Poor on pictures but otherwise very good.|Fontana|1979|0-00-635555-2|0
+7|Encyclopaedia of Medicinal Plants.|Chiej. R.||4|1|Covers plants growing in Europe. Also gives other interesting information on the plants. Good photographs.|MacDonald|1984|0-356-10541-5|1
+8|Free for All.|Ceres.||2|1|Edible wild plants in Britain. Small booklet, nothing special.|Thorsons Publishers|1977|0-7225-0445-4|0
+9|Edible and Medicinal Plants.|Launert. E.||4|1|Covers plants in Europe. a drawing of each plant, quite a bit of interesting information.|Hamlyn|1981|0-600-37216-2|0
+10|Poisonous Plants and Animals.|Altmann. H.||2|1|A small book, reasonable but not very detailed.|Chatto and Windus|1980|0-7011-2526-8|0
+11|Trees and Shrubs Hardy in Great Britain. Vol 1 - 4 and Supplement.|Bean. W.||5|1|A classic with a wealth of information on the plants, but poor on pictures.|Murray|1981|-|1
+12|Britain's Wild Larder.|Loewenfeld. C. and Back. P.||3|1|A handy pocket guide.|David and Charles||0-7153-7971-2|0
+13|Hamlyn Encyclopaedia of Plants.|Triska. Dr.||2|1|Very interesting reading, giving some details of plant uses and quite a lot of folk-lore.|Hamlyn|1975|0-600-33545-3|0
+14|Complete Guide to Herbs.|Holtom. J. and Hylton. W.||3|1|A good herbal.|Rodale Press|1979|0-87857-262-7|0
+15|Edible Ornamental Garden.|Bryan. J. and Castle. C.||2|1|A small book with interesting ideas for edible plants in the ornamental garden.|Pitman Publishing|1976|0-273-00098-5|0
+16|New Vegetable Growers Handbook.|Simons.||3|1|A good guide to growing vegetables in temperate areas, not entirely organic.|Penguin|1977|0-14-046-050-0|0
+17|Flora of the British Isles.|Clapham, Tootin and Warburg.||5|1|A very comprehensive flora, the standard reference book but it has no pictures.|Cambridge University Press|1962|-|0
+18|Companion Plants.|Philbrick H. and Gregg R. B.||3|1|Details of beneficial and antagonistic relationships between neighbouring plants.|Watkins|1979|-|0
+19|Poisonous Plants.|Stary. F.||2|1|Not very comprehensive, but easy reading.|Hamlyn|1983|0-600-35666-3|0
+20|Companion Planting for Successful Gardening.|Riotte. L.||3|1|Fairly good.|Garden Way, Vermont, USA.|1978|0-88266-064-0|0
+21|The Herb Book.|Lust. J.||4|1|Lots of information tightly crammed into a fairly small book.|Bantam books|1983|0-553-23827-2|0
+22|Alternative Foods.|Sholto-Douglas. J.||2|0|Not very comprehensive, it seems more or less like a copy of earlier writings with little added.||||0
+23|Complete Book of Baskets and Basketry.|Wright. D.||4|1|Not that complete but very readable and well illustrated.|David and Charles|1977|0-7153-7449-4|0
+24|Making a Wildlife Garden.|Baines. C.||3|1|Fairly good with lots of ideas about creating wildlife areas in the garden.||||0
+25|Bamboos.|Lawson.||3|0|Fairly comprehensive, it was once the standard work but is now rather dated. Deals with species hardy in Britain, giving cultivation details and some uses.|Faber|1968|-|0
+26|Comfrey Report.|Hills. L.||3|1| A small booklet giving a fairly comprehensive guide to the uses of comfrey.|Henry Doubleday Research Ass.|||0
+27|The Vegetable Garden.|Vilmorin. A.||2|1|A reprint of a nineteenth century classic, giving details of vegetable varieties. Not really that informative though.|Ten Speed Press||0-89815-041-8|0
+28|Plants for Shade.|Knight. F. P.||3|1|A small but informative booklet listing plants that can be grown in shady positions with a few cultivation details.|Royal Horticultural Society.|1980|0-900629-78-9|0
+29|Hedges and Screens.|Shepherd. F.W.||3|1|A small but informative booklet giving details of all the hedging plants being grown in the R.H.S. gardens at Wisley in Surrey.|Royal Horticultural Society.|1974|0900629649|0
+30|Butterflies and Moths in Britain and Europe.|Carter D.||3|1|An excellent book on Lepidoptera, it also lists their favourite food plants.|Pan|1982|0-330-26642-x|0
+31|Shade Plants for Garden and Woodland.|Brown.||2|1|||||0
+32|Commonsense Compost Making.|Bruce. M. E.||4|1|Excellent little booklet dealing with how to make compost by using herbs to activate the heap. Gives full details of the herbs that are used.|Faber|1977|0-571-09990-4|0
+33|Rare Vegetables for Garden and Table.|Organ. J.||4|1|Unusual vegetables that can be grown outdoors in Britain. A good guide.|Faber|1960|-|0
+34|The Oxford Book of Food Plants.|Harrison. S. Wallis. M. Masefield. G.||3|1|Good drawings of some of the more common food plants from around the world. Not much information though.|Oxford University Press|1975|-|0
+35|Herbal Review. Vol.11. 4.|The Herb Society||2|1||The Herb Society|1986|0264-9853|0
+36|Herbal Review. Vol.11. 3.|The Herb Society||3|1|A very interesting article on the stinging nettle, Urtica dioica, giving a lot of information on its uses. Also details on Tanacetum parthenifolium and Melaleuca alternifolium.|The Herb Society|1986|0264-9853|0
+37|The Gardener's Assistant.|Thompson. B.||5|1|Excellent general but extensive guide to gardening practices in the 19th century. A very good section on fruits and vegetables with many little known species.|Blackie and Son.|1878|-|0
+38|Simmons' Manual of Fruit.|Simmons A. E.||4|1|A good guide to some of the cultivars of temperate fruits. It covers quite a wide range of fruits.|David & Charles.|1978|0-7153-7607-1|0
+39|Planting Fruit Trees.|Genders. R.||3|1|A general book on growing fruit in Britain, it does give some descriptions of little known cultivars.|Robert Hale Ltd.|1956|-|0
+40|Scott's Fruit Catalogue. 1985 edition.|Scott's Nursery||2|1|A nursery catalogue giving descriptions of the wide range of trees and shrubs they grow, including a good range of apples.|Scott's Nursery|1985|-|0
+41|Good Fruit Guide.|Hills. L.||1|1|Very dated now, it lists a good range of fruit trees and shrubs with brief descriptions of most of them and details of where they can be obtained.|Henry Doubleday Research Ass.|||0
+42|Hardy Bulbs.|Grey. C. H.||4|0|Rather dated now, but an immense work on bulbs for temperate zones and how to grow them. Three large volumes.|Williams & Norgate.|1938|-|0
+43|Gray's Manual of Botany.|Fernald. M. L.||4|0|A bit dated but good and concise flora of the eastern part of N. America.|American Book Co.|1950|-|0
+44|Flora of New Zealand.|Allan. H. H.||5|0|The standard work, in 3 volumes though only the first two are of interest to the plant project. Very good on habitats.|Government Printer, Wellington.|1961|-|0
+45|Flowers of Greece and the Balkans.|Polunin. O.||4|0|A good pocket flora, it also lists quite a few plant uses.|Oxford University Press|1980|0-19-217626-9|0
+46|Dictionary of Economic Plants.|Uphof. J. C. Th.||5|0|An excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.|Weinheim|1959|-|1
+47|Growing Lilies.|Fox. D.||3|1|A lovely and very readable book dealing with the cultivation of the genus Lilium.|Croom Helm|1985||0
+48|The Checklist of Species, Hybrids and Cultivars of the Genus Fuschia.|Boullemier. L.||2|1|Merely a list of names and the occasional elaboration.|Blandford Press|1985|0-7137-1781-5|0
+49|Shrubs for the Milder Counties.|Arnold-Forster.||3|0|Trees and shrubs that grow well in Cornwall and other mild areas of Britain. Fairly good, a standard reference book.||||0
+50|Flora Europaea|?||5|0|An immense work in 6 volumes (including the index). The standard reference flora for europe, it is very terse though and with very little extra information. Not for the casual reader.|Cambridge University Press|1964|-|0
+51|Flowers of the Himalayas.|Polunin. O. and Stainton. A.||5|0|A very readable and good pocket guide (if you have a very large pocket!) to many of the wild plants in the Himalayas. Gives many examples of plant uses.|Oxford Universtiy Press|1984|-|0
+52|Salads all the Year Round.|Larkcom. J.||4|1|A good and comprehensive guide to temperate salad plants, with full organic details of cultivation.|Hamlyn|1980||0
+53|The Wild Garden.|De. Bray. L.||3|1|Interesting reading.||||0
+54|How to Enjoy your Weeds.|Hatfield. A. W.||3|1|Interesting reading.|Frederick Muller Ltd|1977|0-584-10141-4|0
+55|Eat the Weeds.|Harris. B. C.||3|1|Interesting reading.|Pivot Health|1973|-|0
+56|Complete Guide to Water Plants.|Muhlberg. H.||4|1|Deals with a wide range of plants for temperate areas (and indoor aquaria) with quite a lot of information on cultivation techniques.|E. P. Publishing Ltd.|1982|0-7158-0789-7|0
+57|Plants for Man.|Schery. R. W.||3|0|Fairly readable but not very comprehensive. Deals with plants from around the world.||||1
+58|Flora of Japan. (English translation)|Ohwi. G.||5|0|The standard work. Brilliant, but not for the casual reader.|Smithsonian Institution|1965|-|0
+59|Trees and Shrubs in Cornwall.|Thurston.||3|0|Trees and shrubs that succeed in Cornwall based on the authors own observations. Good but rather dated.||||0
+60|Vascular Plants of the Pacific Northwest.|Hitchcock. C. L.||5|0|A standard flora for Western N. America with lots of information on habitat etc. Five large volumes, it is not for the casual reader.|University of Washington Press|1955|-|0
+61|A Dictionary of Plants Used by Man.|Usher. G.||5|0|Forget the sexist title, this is one of the best books on the subject. Lists a very extensive range of useful plants from around the world with very brief details of the uses. Not for the casual reader.|Constable|1974|0094579202|0
+62|A Field Guide to N. American Edible Wild Plants.|Elias. T. and Dykeman. P.||4|0|Very readable.|Van Nostrand Reinhold|1982|0442222009|0
+63|Nuts.|Howes. F. N.||5|1|Rather old but still a masterpiece. Has sections on tropical and temperate plants with edible nuts plus a section on nut plants in Britain. Very readable.|Faber|1948|-|0
+64|Vegetable Gums and Resins.|Howes. F. N.||4|0|A very good book dealing with the subject in a readable way.|Faber|||1
+65|A Colour Atlas of Poisonous Plants.|Frohne. D. and Pfänder. J.||5|0|Brilliant. Goes into technical details but in a very readable way. The best work on the subject that I've come across so far.|Wolfe|1984|0723408394|0
+66|From Agar to Zenery.|Freethy. R.||4|0|Very readable, giving details on plant uses based on the authors own experiences.|The Crowood Press|1985|0-946284-51-2|0
+67|Berberis and Mahonia.|Ahrendt.||3|0|Not for the casual reader, it lists all the known species in these two genera together with botanic descriptions and other relevant details for the botanist.|Journal of the Linnean Society, 57|1961|-|0
+68|Mushrooms and other Fungi of Great Britain and Europe.|Phillips. R.||5|1|Excellent photographs, it also gives details of habitats and edibility.|Pan|1981|0-330-24441-9|0
+69|Flora of Tierra del Fuego.|Moore. D. M.||5|0|Standard work for this part of S. America. Excellent details of habitat and a few notes on plant uses.|Anthony Nelson.|1983|0-904614-05-0|0
+70|Lichens for Vegetable Dyeing.|Bolton. E.||4|0|A small but interesting book for the casual reader and the enthusiast.|Studio Vista|1972|0-289-70288-7|0
+71|A California Flora.|Munz.||4|0|An excellent flora but no pictures. Not for the casual reader.|University of California Press|1959|-|0
+72|Manual of the Southeastern Flora.|Small.||4|0|Getting rather dated now, it covers Southeastern N. America. No pictures, it is not for the casual reader.||||0
+73|Flora of the Cape Peninsula.|Adamson. and Salter.||2|0|A good flora but rather short on details of habitat. Not for the casual reader.||||0
+74|Flora of the USSR.|Komarov. V. L.||5|0|An immense (25 or more large volumes) and not yet completed translation of the Russian flora. Full of information on plant uses and habitats but heavy going for casual readers.|Israel Program for Scientific Translation|1968|-|0
+75|Shelter Trees and Hedges.|Rosewarne experimental horticultural station.||5|1|A small booklet packed with information on trees and shrubs for hedging and shelterbelts in exposed maritime areas.|Ministry of Agriculture, Fisheries and Food|1984|-|0
+76|Poisonous Plants in Britain and their Effects on Animals and Man.|Cooper. M. and Johnson. A.||2|1|Concentrates mainly on the effects of poisonous plants to livestock.|HMSO|1984|0112425291|0
+77|Eucalypts. (2 volumes.)|Kelly. S.||3|0|A very readable book (in two volumes) on the many species of Eucalyptus trees in Australia.|Nelson, Melbourne|1969|-|0
+78|Propagation of Trees, Shrubs and Conifers.|Sheat. W. G.||4|1|A bit dated but a good book on propagation techniques with specific details for a wide range of plants.|MacMillan and Co|1948|-|0
+79|The World of Iridaceae|Innes. C.||3|0|Deals with many of the plants in the Iris family giving brief details of habitat and notes on cultivation. Well illustrated.||||0
+80|Hardy Woody Plants from Seed.|McMillan-Browse. P.||5|1|Does not deal with many species but it is very comprehensive on those that it does cover. Not for casual reading.|Grower Books|1985|0-901361-21-6|0
+81|Conifers.|Rushforth. K.||4|1|Deals with conifers that can be grown outdoors in Britain. Good notes on cultivation and a few bits about plant uses.|Christopher Helm|1987|0-7470-2801-X|0
+82|Manual of the Trees of N. America.|Sargent. C. S.||4|1|Two volumes, a comprehensive listing of N. American trees though a bit out of date now. Good details on habitats, some details on plant uses. Not really for the casual reader.|Dover Publications Inc. New York.|1965|0-486-20278-X|0
+83|Handbook of Cultivated Sedums.|Evans. R. L.||3|0|Deals with the genus Sedum. Fairly easy reading, it gives cultivation details and some notes on habitats.|Science Reviews|1983|-|0
+84|A Field Guide to the Common and Interesting Plants of Baja California.|Coyle. J. and Roberts. N. C.||4|0|A very readable pocket flora with good illustrations, it gives quite a few plant uses.|Natural History Publishing Co.|1975|-|0
+85|Edible Native Plants of the Rocky Mountains.|Harrington. H. D.||5|1|A superb book. Very readable, it gives the results of the authors experiments with native edible plants.|University of New Mexico Press|1967|0-8623-0343-9|0
+86|Gourds.|Organ. J.||4|1|Deals with squashes and their relatives. Interesting and readable, it gives cultivation techniques and some details of plant uses.|Faber|1963|-|0
+87|Green Manures.|Woodward. L. Burge. P.||4|1|Green manure crops for temperate areas. Quite a lot of information on a number of species.|Elm Farm Research Centre.|1982|-|0
+88|The Garden. Volume 112.|RHS.||3|1|Snippets of information from the magazine of the RHS. In particular, there are articles on plants that are resistant to honey fungus, oriental vegetables, Cimicifuga spp, Passiflora species and Cucurbits.|Royal Horticultural Society|1987|-|0
+89|Flowers of the Mediterranean.|Polunin. O. and Huxley. A.||5|1|A very readable pocket flora that is well illustrated. Gives some information on plant uses.|Hogarth Press|1987|0-7012-0784-1|1
+90|Bulbs|Phillips. R. and Rix. M.||5|0|Superbly illustrated, it gives brief details on cultivation and native habitat.|Pan Books|1989|0-330-30253-1|0
+91|Alpine Plants of China.|Zhang Jingwei.||4|0|A lovely book with nice pictures. Gives habitats and some details of plant uses.|Gordon & Breach. New York.|1982|0-677-60190-5|0
+92|Early Uses of Californian Plants.|Balls. E. K.||3|0|A nice readable book.|University of California Press|1975|0-520-00072-2|0
+93|Flora of Turkey.|Davis. P. H.||4|0|Not for the casual reader, this is an immense work in many volumes. Some details of plant uses and habitats.|Edinburgh University Press|1965|-|0
+94|Common Edible and Useful Plants of the West.|Sweet. M.||4|0|Useful wild plants in Western N. America. A pocket guide.|Naturegraph Co.|1962|0-911010-54-8|0
+95|Edible and Useful Wild Plants of the United States and Canada.|Saunders. C. F.||4|1|Useful wild plants of America. A pocket guide.|Dover Publications|1976|0-486-23310-3|0
+96|Seaweed - A Users Guide.|Surey-Gent. S. and Morris. G.||4|1|Covers seaweeds of Britain. A good coverage of when and what to eat plus some other uses.||||0
+97|The Ethno-Botany of Pre-Columbian Peru.|Towle. M. A.||3|0|A very interesting book covering quite a lot of information on plant uses in S. America although many of the plants are not suitable for temperate areas..||||0
+98|Seed Manual for Ornamental Trees and Shrubs.|Gordon. A. G. and Rowe. D. C. f.||4|0|Very comprehensive guide to growing trees and shrubs from seed. Not for the casual reader.||||0
+99|Plants in British Columbian Indian Technology.|Turner. N. J.||4|1|Excellent and readable guide.|British Columbia Provincial Museum|1979|0-7718-8117-7|0
+100|Flowers of Europe - A Field Guide.|Polunin. O.||5|0|An excellent and well illustrated pocket guide for those with very large pockets. Also gives some details on plant uses.|Oxford University Press|1969|0192176218|1
+101|Edible Wild Fruits and Nuts of Canada.|Turner. N. J. and Szczawinski. A.||4|1|A very readable guide to some wild foods of Canada.|National Museum of Natural Sciences|1978|-|0
+102|Native Harvests.|Kavasch. B.||4|1|Another guide to the wild foods of America.|Vintage Books|1979|0-394-72811-4|0
+103|Flowering Plants of the World.|Haywood. V. H.||5|1|Very readable and well illustrated, it lists plants by families giving the basic diagnostic features and some details of plant uses.|Oxford University Press||0-19-217674-9|0
+104|The Garden. Volume 111.|RHS.||3|1|Snippets of information from the magazine of the RHS, including an article in Crambe maritima and another on several species thought to be tender that are succeeding in a S. Devon garden.|Royal Horticultural Society|1986|-|0
+105|Tanaka's Cyclopaedia of Edible Plants of the World.|Tanaka. T.||5|0|The most comprehensive guide to edible plants I've come across. Only the briefest entry for each species, though, and some of the entries are more than a little dubious. Not for the casual reader.|Keigaku Publishing|1976|-|1
+106|The Dictionary of Useful Plants.|Coon. N.||3|0|Interesting reading but short on detail.|Rodale Press|1975|0-87857-090-x|0
+107|A Key to Eucalypts in Britain and Ireland.|Brooker. M. I.||3|1|A Forestry commission booklet giving details of the more common Eucalyptus species grown in Britain. Good identification guide.|HMSO|1983|0-11-710192-3|0
+108|Garden Plants Valuable to Bees.|International Bee Research Association.||3|1|The title says it all.|International Bee Research Association.|1981|-|0
+109|Plantae Wilsonae.|Wilson. E. H.||3|0|Details of the palnts collected by the plant collector E. H. Wilson on his travels in China. Gives some habitats. Not for the casual reader.||||0
+110|Rubber: Botany, Cultivation and Utilization.|Polhamus. L. G.||2|0|Mainly tropical plants with a small section on temperate plants for rubber.||||0
+111|Popular Hardy Perennials.|Sanders. T. W.||2|1|A fairly wide range of perennial plants that can be grown in Britain and how to grow them.|Collingridge|1926|-|0
+112|A Summary of the Literature on Milkweeds (Asclepias spp) and their utilization.|Whiting. A. G.||4|0|A technical paper covering the many uses of the genus Asclepias.||||0
+113|The Reference Manual of Woody Plant Propagation.|Dirr. M. A. and Heuser. M. W.||4|0|A very detailed book on propagating trees. Not for the casual reader.|Athens Ga. Varsity Press|1987|0942375009|0
+114|The Plant Wealth of Iraq.|Chakravarty. H. L.||4|0|It is surprising how many of these plants can be grown in Britain. A very readable book on the useful plants of Iraq.||||0
+115|The Useful Plants of Great Britain.|Johnson. C. P.||4|0|Written about a hundred years ago, but still a very good guide to the useful plants of Britain.||||0
+116|Oriental Herbs and Vegetables, Vol 39 No. 2.|Brooklyn Botanic Garden||4|1|A small booklet packed with information.|Brooklyn Botanic Garden|1986|-|0
+117|The Book of Edible Nuts.|Rosengarten. jnr. F.||5|0|A very readable and comprehensive guide. Well illustrated.|Walker & Co.|1984|0802707699|1
+118|Ethnobotany of Western Washington.|Gunther. E.||4|1|A small book, it is a good guide to useful plants in Western N. America.|University of Washington Press|1981|0-295-95258-X|0
+119|Cultivated Fruits of Britain.|Roach. F. A.||2|0||Oxford University Press|1985||0
+120|The Plantsman. Vol. 2. 1980 - 1981.|?||3|0|Excerpts from the periodical giving cultivation details and other notes on some of the useful plants including Billardiera spp, Calochortus spp, Drimys spp.|Royal Horticultural Society|1980|-|0
+121|The Plantsman. Vol. 3. 1981 - 1982.|?||3|0|Excerpts from the periodical giving cultivation details and other notes on some of the useful plants..|Royal Horticultural Society|1981|-|0
+122|The Plantsman. Vol. 1. 1979 - 1980.|?||3|0|Excerpts from the periodical giving cultivation details and other notes on some of the useful plants. A good article on the flowering of bamboos.|Royal Horticultural Society|1979|-|0
+123|Encyclopaedia Britannica. 15th edition.|?||2|0|It contains a few things of interest to the plant project.||||0
+124|The Garden. Volume 113.|RHS.||3|1|Snippets of information from the magazine of the RHS, including details on Podophyllum, Canna and Protea species.|Royal Horticultural Society|1988|-|0
+125|The Plantsman. Vol. 5. 1983 - 1984.|?||3|0|Excerpts from the periodical giving cultivation details and other notes on some of the useful plants..|Royal Horticultural Society|1983|-|0
+126|The Plantsman. Vol. 6. 1984 - 1985.|?||3|0|Excerpts from the periodical giving cultivation details and other notes on some of the useful plants including Actinidia and Wisteria species.|Royal Horticultural Society|1984|-|0
+127|The Plantsman. Vol. 7. 1985 - 1986.|?||3|0|Excerpts from the periodical giving cultivation details and other notes on some of the useful plants..|Royal Horticultural Society|1985|-|0
+128|Plants of New Zealand.|Laing. and Blackwell.||3|1|An old flora of New Zealand in a readable style. Some details of plant uses.|Whitcombe and Tombs Ltd|1907|-|0
+129|Alpine Garden Society Bulletin. Volume 56.|?||2|1|Excerpts from the periodical. Some details on Corydalis spp.|Alpine Garden Society||-|0
+130|The Plantsman. Vol. 4. 1982 - 1983.|?||3|0|Excerpts from the periodical giving cultivation details and other notes on some of the useful plants, including Distylium racemosum and some perennial members of the family Berberidaceae.|Royal Horticultural Society|1982|-|0
+131|Willows.|Warren-Wren. S. C.||3|0|A readable guide to the willows.|David and Charles|1972|-|0
+132|Fruits of the Earth.|Bianchini. F., Corbetta. F. and Pistoia. M.||3|0|Lovely pictures, a very readable book.||||0
+133|Growing from Seed. Volume 1.|Rice. G. (Editor)||4|1|Very readable magazine with lots of information on propagation.|Thompson and Morgan.|1987|-|0
+134|Growing from Seed. Volume 2.|Rice. G. (Editor)||4|1|Very readable magazine with lots of information on propagation. An interesting article on Ensete ventricosum.|Thompson and Morgan.|1988|-|0
+135|The Plantsman. Vol.8. 1986 - 1987.|?||3|0|Excerpts from the periodical giving cultivation details and other notes on some of the useful plants including some Cucurbitaceae.|Royal Horticultural Society|1986|-|0
+136|Kew Bulletin. 1909|Royal Botanic Gardens, Kew.||3|0|An interesting article on growing wild rice, Zizania aquatica and Z. latifolia.|Royal Botanic Gardens, Kew.|1909|-|0
+137|The Plantsman. Vol. 9. 1986 - 1987.|?||3|0|Excerpts from the periodical giving cultivation details and other notes on some of the useful plants including Carya spp and Crocus sativus.|Royal Horticultural Society|1986|-|0
+138|Growing from Seed. Volume 3.|Bird. R. (Editor)||4|1|Very readable magazine with lots of information on propagation.|Thompson and Morgan.|1989|-|0
+139|Flora of Chile. (in Spanish)|?||3|0|Some information about the useful plants of Chile.||||0
+140|Siberian Ginseng.|Kamen. B.||4|0|Detailed information for the lay person on this medicinal plant that is so widely used in the Orient and Russia.||||0
+141|Alternative Enterprises for Agriculture in the UK.|Carruthers. S. P. (Editor)||4|0|Some suggested alternative commercial crops for Britain. Readable. Produced by a University study group.|Centre for Agricultural Strategy, Univ. of Reading|1986|0704909820|0
+142|Plants Consumed by Man.|Brouk. B.||3|0|Readable but not very comprehensive.|Academic Press|1975|0-12-136450-x|0
+143|Lilies - Their Culture and Management.|Woodcock. and Coutts.||3|1|A classic, but dated. Deals with the genus Lilium.|Country Life|1935|-|0
+144|Wild Food in Australia.|Cribb. A. B. and J. W.||5|1|A very good pocket guide.|Fontana|1976|0-00-634436-4|0
+145|Forest Flora of Srinagar.|Singh. Dr. G. and Kachroo. Prof. Dr. P.||4|1|A good flora of the western Himalayas but poorly illustrated. Some information on plant uses.|Bishen Singh Mahendra Pal Singh|1976|-|0
+146|A Manual of Indian Timbers.|Gamble. J. S.||5|1|Written last century, but still a classic, giving a lot of information on the uses and habitats of Indian trees. Not for the casual reader.|Bishen Singh Mahendra Pal Singh|1972|-|0
+147|A Barefoot Doctors Manual.|?||5|1|A very readable herbal from China, combining some modern methods with traditional chinese methods.|Running Press||0-914294-92-X|0
+148|Herbs of Greece.|Niebuhr. A. D.||3|0|A pleasant little book about Greek herbs.|Herb Society of America.|1970|-|0
+149|Trees of Central Texas.|Vines. R. A.||4|0|Fairly readable, it gives details of habitats and some of the uses of trees growing in Texas.|University of Texas Press|1987|0-292-78958-3|0
+150|Handbook of the Rubi of Great Britain and Ireland.|Watson. W. C. R.||2|0|There are hundreds of slightly differing species of the common blackberry growing in Britain. This is a book for the dedicated.||||0
+151|Corean Flora.|Wilson. E. H. and Trollope. M. N.||2|0|A very small handbook, it does give a little bit of information on Korean plants.|Royal Asiatic Society|1918|-|0
+152|Australian Medicinal Plants.|Lassak. E. V. and McCarthy. T.||4|0|A very good and readable guide to the subject.||||0
+153|Economic Native Plants of New Zealand.|Brooker. S. G., Cambie. R. C. and Cooper. R. C.||3|0|An interesting and readable book on the useful plants of New Zealand.|Oxford University Press|1991|0-19-558229-2|0
+154|Flora of Victoria.|Ewart. A. J.||1|0|A flora of eastern Australia, it is rather short on information that is useful to the plant project.||||0
+155|Flowers of the Southwest Mountains.|Arnberger. L. P.||3|0|A lovely little pocket guide to wild plants in the southern Rockies of America.|Southwestern Monuments Ass.|1968|-|0
+156|Useful Wild Plants in Australia.|Cribb. A. B. and J. W.||5|1|A very readable book.|William Collins Pty Ltd. Sidney|1981|0-00-216441-8|0
+157|Australian Native Plants.|Wrigley. J. W. and Fagg. M.||3|0|A lovely book, written in order to encourage Australian gardeners to grow their native plants. A little bit of information for the plant project.|Collins. (Australia)|1988|0-7322-0021-0|0
+158|Forest Flora of Chakrata, Dehra Dun and Saharanpur.|Gupta. B. L.||4|1|A good flora for the middle Himalayan forests, sparsly illustrated. Not really for the casual reader.|Forest Research Institute Press|1945|-|0
+159|Wild Food Plants of Indiana.|McPherson. A. and S.||4|1|A nice pocket guide to this region of America.|Indiana University Press|1977|0-253-28925-4|0
+160|Wonder Crops. 1987.|Natural Food Institute,||3|1|Fascinating reading, this is an annual publication. Some reports do seem somewhat exaggerated though.||||0
+161|Food Plants of the N. American Indians. Publication no. 237.|Yanovsky. E.||4|1|A comprehensive but very terse guide. Not for the casual reader.|U.S. Depf of Agriculture.||-|0
+162|Ornamental Grasses.|Grounds. R.||3|1|Cultivation details of many of the grasses and bamboos. Well illustrated.|Christopher Helm|1989|0-7470-1219-9|0
+163|Lilies and Related Plants.|RHS Lily Group.||3|1|Lots of interesting snippets about plants in the family Liliaceae (in the old, broad sense)||||0
+164|Growing from Seed. Volume 4.|Bird. R. (Editor)||4|1|Very readable magazine with lots of information on propagation. A good article on Yuccas, one on Sagebrush (Artemesia spp) and another on Chaerophyllum bulbosum.|Thompson and Morgan.|1990|-|0
+165|The Dictionary of Modern Herbalism.|Mills. S. Y.||5|1|An excellent small herbal.||||0
+166|The Milder Garden.|Taylor. J.||4|0|A good book on plants that you didn't know could be grown outdoors in Britain.|Dent|1990||0
+167|A Field Guide to Australian Trees.|Holliday. I. and Hill. R.||3|0|A well illustrated and very readable book, but it does not contain much information for the plant project.|Frederick Muller Ltd.|1974|0-85179-627-3|0
+168|Nature's Colors - Dyes from Plants.|Grae. I.||4|0|A very good and readable book on dyeing.|MacMillan Publishing Co. New York.|1974|0-02-544950-8|0
+169|A Weavers Garden.|Buchanan. R.||4|0|Covers all aspects of growing your own clothes, from fibre plants to dyes.||||0
+170|Ground Cherries, Husk Tomatoes and Tomatilloes.|Dremann. C. G.||4|1|Only a small booklet but it covers the various species in some depth.|Redwood City Seed Co|1985|0-933421-03-6|0
+171|Economic Botany.|Hill. A. F.||3|1|Not very comprehensive, but it is quite readable and goes into some a bit of detail about the plants it does cover.|The Maple Press|1952|-|1
+172|Discovering Wild Plants - Alaska, W. Canada and the Northwest.|Schofield. J. J.||4|1|A nice guide to some useful plants in that area.||||0
+173|Native Edible Plants of New Zealand.|Crowe. A.||5|1|A very well written and illustrated book based on the authors own experiments with living on a native diet.|Hodder and Stoughton|1990|0-340-508302|0
+174|Atlas of Medicinal Plants.|Kariyone. T.||3|0|A good Japanese herbal.||||0
+175|Focus on Plants. Volume 5. (formerly 'Growing from seed')|Bird. R. (Editor)||4|1|Very readable magazine with lots of information on propagation. A good article on Corydalis spp.|Thompson and Morgan.|1991|-|0
+176|Handbook of Chinese Herbs and Formulas.|Yeung. Him-Che.||4|1|An excellent Chinese herbal giving information on over 500 species. Rather technical and probably best suited to the more accomplished user of herbs.|Institute of Chinese Medicine, Los Angeles|1985|-|0
+177|Plants for Human Consumption.|Kunkel. G.||5|0|An excellent book for the dedicated. A comprehensive listing of latin names with a brief list of edible parts.|Koeltz Scientific Books|1984|3874292169|1
+178|Chinese Materia Medica.|Stuart. Rev. G. A.||4|0|A translation of an ancient Chinese herbal. Fascinating.|Taipei. Southern Materials Centre||-|0
+179|Famine Foods of the Chiu-Huang Pen-ts'ao.|Reid. B. E.||5|1|A translation of an ancient Chinese book on edible wild foods. Fascinating.|Taipei. Southern Materials Centre|1977|-|0
+180|Yunnan Camellias of China.|Kunming Inst. of Botany.||4|0|Lots of information and good photos.||||0
+181|Meet Flora Mexicana.|Pesman. M. W.||3|0|Very readable flora but rather lacking botanically. A few notes on useful plants.|Dale S. King. Arizona.|1962|-|0
+182|Ornamental Shrubs, Climbers and Bamboos.|Thomas. G. S.||3|1|Contains a wide range of plants with a brief description, mainly of their ornamental value but also usually of cultivation details and varieties.|Murray|1992|0-7195-5043-2|0
+183|Cornucopia - A Source Book of Edible Plants.|Facciola. S.||5|1|Excellent. Contains a very wide range of conventional and unconventional food plants (including tropical) and where they can be obtained (mainly N. American nurseries but also research institutes and a lot of other nurseries from around the world.|Kampong Publications|1990|0-9628087-0-9|1
+184|Shrubs.|Phillips. R. & Rix. M.||4|0|Excellent photographs and a terse description of 1900 species and cultivars.|Pan Books|1989|0-330-30258-2|0
+185|Conifers in the British Isles.|Mitchell. A. F.||4|1|A bit out of date (first published in 1972), but an excellent guide to how well the various species of conifers grow in Britain giving locations of trees.|HMSO|1975|0-11-710012-9|0
+186|Planting Native Trees and Shrubs.|Beckett. G. and K.||4|1|An excellent guide to native British trees and shrubs with lots of details about the plants.|Jarrold|1979|-|0
+187|Perennials Volumes 1 and 2.|Phillips. R. & Rix. M.||4|1|Photographs of over 3,000 species and cultivars of ornamental plants together with brief cultivation notes, details of habitat etc.|Pan Books|1991|0-330-30936-9|0
+188|The RHS Gardener's Encyclopedia of Plants and Flowers|Brickell. C.||3|1|Excellent range of photographs, some cultivation details but very little information on plant uses.|Dorling Kindersley Publishers Ltd.|1990|0-86318-386-7|0
+189|Plant Fibres for Papermaking.|Bell. L. A.||4|0|A good practical section on how to make paper on a small scale plus details of about 75 species (quite a few of them tropical) that can be used.|Liliaceae Press|1988|-|0
+190|The Dry Garden.|Chatto. B.||3|0|A good list of drought resistant plants with details on how to grow them.|Dent|1982|0460045512|0
+191|Letter from Crarae Garden, March 1993.|||1|1|A list Nothofagus species growing at Crarae Garden in Scotland.|-|1993|-|0
+192|Narcotic Plants|Emboden. W.||4|0|A lot of details about the history, chemistry and use of narcotic plants, including hallucinogens, stimulants, inebriants and hypnotics.|Studio Vista|1979|0-289-70864-8|0
+193|Wild Food Plants of Australia.|Low. T.||4|1|Well presented, clear information and good photographs. An interesting read for the casual reader as well as the enthusiast|Angus and Robertson.|1989|0-207-14383-8|0
+194|Wild Fruits of the Sub-Himalayan Region.|Parmar. C. and Kaushal. M.K.||4|0|Contains lots of information on about 25 species of fruit-bearing plants of the Himalayas, not all of them suitable for cool temperate zones.|Kalyani Publishers. New Delhi.|1982|-|0
+195|The Book of Bamboo|Farrelly. D.||5|0|Very readable, giving lots of information on the uses of bamboos, both temperate and tropical.|Sierra Club.|1984|0-87156-825-X|0
+196|Lost Crops of the Incas|Popenoe. H. et al||5|1|An excellent book. Very readable, with lots of information and good pictures of some lesser known food plants of S. America.|National Academy Press|1990|0-309-04264-X|0
+197|Ground Cover Plants.|Royal Horticultural Society.||3|1|A handy little booklet from the R.H.S.|Cassells.|1989|0-304-31089-1|0
+198|Journal of the Arnold Arboretum. Volume 32.|Li. H. L.||3|0|A monograph of the genus Actinidia.|Arnold Arboretum.|1952|-|0
+199|Willows - The Genus Salix.|Newsholme. C.||4|0|A very readable book on the genus.|Batsford|1992|0713468815|0
+200|The New RHS Dictionary of Gardening. 1992.|Huxley. A.||5|1|Excellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.|MacMillan Press|1992|0-333-47494-5|1
+201|A - Z of Companion Planting.|Allardice.P.||3|0|A well produced and very readable book.|Cassell Publishers Ltd.|1993|0-304-34324-2|0
+202|Climbers and Wall Shrubs.|Davis. B.||3|1|Contains information on 2,000 species and cultivars, giving details of cultivation requirements. The text is terse but informative.|Viking.|1990|0-670-82929-3|0
+203|Alliums. The Ornamental Onions.|Davies. D.||4|1|Covers about 200 species of Alliums. A very short section on their uses, good details of their cultivation needs.|Batsford|1992|0-7134-7030-5|0
+204|Flora of Canada|Livingstone. B.||2|0|In 4 volumes, it does not deal with plant uses but gives descriptions and habitats.|National Museums of Canada|1978|0-660-00025-3|0
+205|Hemerocallis. Day Lilies.|Erhardt. W.||4|1|A comprehensive book on the species with a short section on their uses.|Batsford.|1992|0-7134-7065-8|0
+206|Oriental Vegetables|Larkcom J.||4|1|Well written and very informative.|John Murray|1991|0-7195-4781-4|0
+207|The History and Folklore of North American Wild Flowers.|Coffey. T.||3|1|A nice read, lots of information on plant uses.|Facts on File.|1993|0-8160-2624-6|0
+208|Plants for Ground Cover|Thomas. G. S.||4|1|An excellent detailled book on the subject, very comprehensive.|J. M. Dent & Sons|1990|0-460-12609-1|0
+209|Handbook of the Bach Flower Remedies|Chancellor. P. M.||3|1|Details the 38 remedies plus how and where to prescribe them.|C. W. Daniel Co. Ltd.|1985|85207 002 0|0
+210|Aromatherapy - A guide for home use.|Westwood. C.||4|1|An excellent little pocket guide. Very concise.|Amberwood Publishing Ltd|1993|0-9517723-0-9|0
+211|Wild Flowers of Kashmir|Coventry. B. O.||3|1|A nice little pocket guide to 50 wildflowers of Kashmir. This is part one of three, we have not seen the other two volumes|Raithby, Lawrence and Co.|1923|-|0
+212|A Field Guide to Rocky Mountain Wildflowers|Craighead. J., Craighead. F. and Davis. R.||4|1|Excellent little pocket guide to the area, covering 590 species and often giving details of their uses.|The Riverside Press|1963|63-7093|0
+213|Earth Medicine, Earth Food.|Weiner. M. A.||3|1|A nice book to read though it is difficult to look up individual plants since the book is divided into separate sections dealing with the different medicinal uses plus a section on edible plants. Common names are used instead of botanical.|Ballantine Books|1980|0-449-90589-6|0
+214|The New Plantsman. Volume 1, 1994.|Matthews. V.||4|1|A quarterly magazine, it has articles on Himalayacalamus hookerianus, hardy Euphorbias and an excellent article on Hippophae spp.|Royal Horticultural Society|1994|1352-4186|0
+215|The Natural History Programme 16th September 1994.|BBC||2|0|A report on the Natural History radio 4 programme about the value of Japanese knot weed to British wildlife.|BBC|1994|-|0
+216|Ethnobotany of the Hopi|Whiting. A. F.||4|1|A very good guide the the plant uses of the N. American Hopi Indians.|North Arizona Society of Science and Art|1939|-|0
+217|Les Salades Sauvages|Les Ecologistes de l'Euzière||3|1|A lovely little book about some wild salads in France. Written in French.|Not given.|1994|2-906128-04-X|0
+218|Medicinal Plants of China|Duke. J. A. and Ayensu. E. S.||4|1|Details of over 1,200 medicinal plants of China and brief details of their uses. Often includes an analysis, or at least a list of constituents. Heavy going if you are not into the subject.|Reference Publications, Inc.|1985|0-917256-20-4|1
+219|Gardening on Walls|Grey-Wilson. C. & Matthews. V.||3|0|A nice little book about plants for growing against walls and a small section on plants that can grow in walls.|Collins|1983|0-00-219220-0|0
+220|Bamboos of Nepal|Stapleton. C.||4|1|An excelllent little booklet that looks in some detail at the native bamboos of Nepal, including looking at their uses.|The Royal Botanic Gardens, Kew|1994|0947643680|0
+221|Campanulas - their cultivation and classification.|Crook. H. Clifford.||3|0|The most comprehensive treatment of the genus yet written (2002).|Country Life|1951|-|0
+222|A Field Guide to Medicinal Plants. Eastern and Central N. America.|Foster. S. & Duke. J. A.||3|1|A concise book dealing with almost 500 species. A line drawing of each plant is included plus colour photographs of about 100 species. Very good as a field guide, it only gives brief details about the plants medicinal properties.|Houghton Mifflin Co.|1990|0395467225|0
+223|Vegetable Tannins|Rottsieper. E.H.W.||2|0|A fairly detailed treatise on the major sources of vegetable tannins.|The Forestal Land, Timber and Railways Co. Ltd.|1946|-|0
+224|Agnus Castus|Bartram. T.||3|1|A leaflet that summarizes the medicinal virtues of Vitex agnus-castus.|-||-|0
+225|The New Plantsman. Volume 2, 1995.|Knees. S.||4|1|A quarterly magazine, it has articles on Coprosma species,|Royal Horticultural Society|1995|1352-4186|0
+226|Identification Guide to the Trees of Canada|Lauriault. J.||4|1|Very good on identification for non-experts, the book also has a lot of information on plant uses.|Fitzhenry and Whiteside, Ontario.|1989|0889025649|0
+227|Trees of North Texas|Vines. R.A.||3|0|A readable guide to the area, it contains descriptions of the plants and their habitats with quite a bit of information on plant uses.|University of Texas Press.|1982|0292780206|0
+228|Flora of the Great Plains.|McGregor. R. L. & Barkley. T. M.||2|0|A useful source of habitats.|University Press of Kansas.|1986|070060295x|0
+229|The Complete Trees of N. America. Field Guide and Natural History.|Elias. T.||5|0|A very good concise guide. Gives habitats, good descriptions, maps showing distribution and a few of the uses. It also includes the many shrubs that occasionally reach tree proportions.|Van Nostrand Reinhold Co.|1980|0442238622|0
+230|Hardy Orchids. Orchids for the Garden and Frost-free Greenhouse.|Cribb. P. & Bailes. C.||5|1|An excellent book looking at the orchids that can be grown outdoors in temperate climates and giving lots of information on how to grow them. Very lttle information on their uses.|Christopher Helm. London.|1989|0 7470 0416 1|0
+231|Palms for Cooler Climates.|McMillan-Browse. P.||4|1|An excellent little booklet on the subject, though it does not mention many plant uses.|Trebah Enterprises.|1993|0 9521952 0 8|0
+232|The Complete Homeopathy Handbook.|Castro. M.||3|1|A concise beginner's guide to the subject. Very readable.|Macmillan. London.|1990|0-333-55581-3|0
+233|Perennial Garden Plants|Thomas. G. S.||3|1|A concise guide to a wide range of perennials. Lots of cultivation guides, very little on plant uses.|J. M. Dent & Sons, London.|1990|0 460 86048 8|0
+234|Radio 4 Farming Programme, 25/08/95.|-||1|0|An article on the potential of Coriandrum sativum as an oil crop.|-|1995|-|0
+235|An Illustrated Flora of the Northern United States and Canada|Britton. N. L. Brown. A.||3|1|Reprint of a 1913 Flora, but still a very useful book.|Dover Publications. New York.|1970|0-486-22642-5|0
+236|Manual of the Grasses of the United States|Hitchcock. A. S.||3|1|A nice and comprehensive flora, though a bit dated. Good line drawings of each plant, plus a brief idea of the habitat and a few notes on plant uses. Not for the casual reader.|Dover Publications. New York.|1971|0-486-22717-0|0
+237|Ginkgo. Elixir of Youth.|Hobbs. C.||4|1|Looks in detail at the medicinal virtues and also mentions some of the plants other uses. The information on traditional Chinese use and modern herbal use of the plant is backed up by an extensive bibliography.|Botanica Press, California.|1994|0-9618470-3-4|0
+238|Encyclopaedia of Herbs and their Uses.|Bown. D.||5|1|A very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.|Dorling Kindersley, London.|1995|0-7513-020-31|1
+239|Gentians.|Kohlein. F.||3|0|A nice readable book, giving details of habitats and cultural needs of all the members of this genus, with brief notes on other members of the family.|Christopher Helm. London.|1991|0-88192-192-0|0
+240|Glossary of Indian Medicinal Plants (Including the Supplement).|Chopra. R. N., Nayar. S. L. and Chopra. I. C.||2|1|Very terse details of medicinal uses of plants with a wide range of references and details of research into the plants chemistry. Not for the casual reader.|Council of Scientific and Industrial Research, New Delhi.|1986|-|0
+241|Tibetan Medicinal Plants|Tsarong. Tsewang. J.||3|1|A nice little pocket guide to the subject with photographs of 95 species and brief comments on their uses.|Tibetan Medical Publications, India|1994|81-900489-0-2|0
+242|Correspondence from Allium NCCPG collection|Davies. P.||1|1|Letter dated 21/01/97, giving additional information on Alium species.||1997||0
+243|Medicinal Plants of Nepal|||3|1|Terse details of the medicinal properties of Nepalese plants, including cultivated species and a few imported herbs.|Dept. of Medicinal Plants. Nepal.|1993|-|0
+244|Herbs|Phillips. R. & Foy. N.||4|1|Deals with all types of herbs including medicinal, culinary, scented and dye plants. Excellent photographs with quite good information on each plant.|Pan Books Ltd. London.|1990|0-330-30725-8|0
+245|Scented Flora of the World.|Genders. R.||4|1|An excellent, comprehensive book on scented plants giving a few other plant uses and brief cultivation details. There are no illustrations.|Robert Hale. London.|1994|0-7090-5440-8|0
+246|AM|Radio 4||3|0|A news item on the Radio 4 morning news programme 'AM', 15/10/97.|-|1997|-|0
+247|The New Plantsman. Volume 4.|Knees. S.||3|1|A few articles of interest, especially Berberdopsis corallina and Tropaeolum species.|Royal Horticultural Society, London|1997|1352-4186|0
+248|New Scientist|Anderson. A.||2|0|A short item on a couple of soil reclamation plants, Atropa belladonna and Solanum nigrum|IPC Magazines Ltd, London|1997|0262-4079|0
+249|Wisterias: a comprehensive guide.|Valder. P.||4|1|Excellent information and photographs of this genus with a little bit about their uses.|Florilegium. Australia.|1995|0-646-22049-7|0
+250|The Gardener's Guide to Growing Peonies.|Page. M.||3|1|A nice little book on the genus, giving information on their cultivation and a little info on plant uses.|David & Charles. Newton Abbot.|1997|0 7153 0531 X|0
+251|The Gardener's Guide to Growing Hostas|Grenfell. Diana||3|1|Excellent cover of the genus, though it concentrates mainly on the cultivars and does not go much into plant uses.|David &Charles|1996|0-7153-0431-3|0
+252|Scientific American August 1998|-||2|1|An interesting article on the use of halophytes as commercial food crops in dessert areas near the sea. Unfortunately lacking in detail of species used and also judges the plant's value as livestock feed rather than direct human food.|Scientific American Inc. New York|1998|0036-8733|0
+253|The Garden Volume 123|Hodgson I. (Editor)||4|1|Articles on Fuchsia species, cultivars of Blackberries.|Royal Horticultural Society|1998|0308-5457|0
+254|The Encyclopedia of Medicinal Plants|Chevallier. A.||4|1|An excellent guide to over 500 of the more well known medicinal herbs from around the world.|Dorling Kindersley. London|1996|9-780751-303148|0
+255|Solgar New Product Information - Rhodiola Vegicaps.|Solgar Vitamins||3|1|Information sheet from Solgar Vitamins, looking at the herbal use of Rhodiola rosea.|Solgar Vitamins, Tring, Herts.|1998|-|0
+256|Food Plants of Coastal First Peoples|Turner. N. J.||4|1|Excellent little handbook about the native food plants of Western Canada. Good descriptions of the plants and their uses with colour photos of most plants.|UBC Press. Vancouver.|1995|0-7748-0533-1|0
+257|Native American Ethnobotany|Moerman. D.||5|1|Very comprehensive but terse guide to the native uses of plants. Excellent bibliography, fully referenced to each plant, giving a pathway to further information. Not for the casual reader.|Timber Press. Oregon.|1998|0-88192-453-9|0
+258|The Garden. Volume 124. 1999.|RHS. Wisley, Surrey.||3|1|The monthly newsletter of the RHS, contains articles on Erythroniums.|RHS. Wisley, Surrey.|1999|0308 5457|0
+259|Eco-Friendly House Plants.|Wolverton. B. C.||4|0|Excellent guide to pollution in the home and those plants that can help to remove the problem. Most of the plants are not hardy outdoors in the temperate zone, though a number of species can be grown outside.|Weidenfeld & Nicolson. London.|1996|0-297-83484-3|0
+260|Conservatory and Indoor Plants Volumes 1 & 2|Phillips. R. & Rix. M.||4|1|Excellent photos of over 1,100 species and cultivars with habits and cultivation details plus a few plant uses. Many species are too tender for outdoors in Britain though there are many that can be grown outside.|Pan Books, London.|1998|0-330-37376-5|0
+261|Legumes of Northern Eurasia|Yakovlev. G. Sytin. A. & Roskov. Yu.||4|1|For the academic only, a list of species growing in N. Eurasia with terse details on habitat, range, uses etc.|Royal Botanic gardens, Kew.|1996|0-947643-97-4|0
+262|Passion Flowers|Vanderplank. J.||4|1|An excellent book on passion flowers, giving information on hardy species and how to grow the less hardy in greenhouses etc. A bit lacking at times on specific information on hardyness. Excellent photographs.|Cassell. London.|1991|0-304-34076-6|0
+263|Maca.htm|Raintree Nutrition Inc.||4|1|Web site giving lots of info on Lepidium meyenii.||1999||0
+264|Vegetables|Phillips. R. & Rix. M.||4|1|Excellent and easily read book with good information and an excellent collection of photos of vegetables from around the world, including many unusual species.|Macmillan Reference Books, London.|1995|0 333 62640 0|0
+265|Flora of the Sydney Region|Carolin. R. & Tindale. M.||3|1|Concise flora with little beyond an extensive key, species descriptions, very brief habitat description.|Reed. Australia.|1993|0730104001|0
+266|Flora of China||http://flora.huh.harvard.edu/china/|4|0|On-line version of the Flora - an excellent resource giving basic info on habitat and some uses.||1994||0
+267|Bamboos of Bhutan|Stapleton. C.||4|1|Excellent little booklet about the bamboos growing wild and cultivated for food, raw materials etc in Bhutan. Very good guide to identification.|Royal Botanic Gardens, Kew.|1994|0-947643-67-2|0
+268|The Encyclopedia of Herbs and Herbalism|Stuart. M. (Editor)||4|1|Excellent herbal with good concise information on over 400 herbs.|Orbis Publishing. London.|1979|0-85613-067-2|0
+269|Handbook of Energy Crops|Duke. J.||5|1|Published only on the Internet, excellent information on a wide range of plants.|-|1983|-|0
+270|Flora of N. America||http://flora.huh.harvard.edu/fna/|5|0|An on-line version of the flora with an excellent description of the plant including a brief mention of plant uses.||0||0
+271|Campanulas - A Gardener's Guide.|Lewis. P. & Lynch. M.||4|1|Very readable account of almost 150 members of the genus, together with their hybrids and cultivars, that are more commonly grown in gardens. Excellent photographs of many of the species.|B. T. Batsford. London.|1998|0-7134-8266-4|0
+272|Plants and People of Nepal|Manandhar. N. P.||5|1|Excellent book, covering over 1,500 species of useful plants from Nepal together with information on the geography and peoples of Nepal. Good descriptions of the plants with terse notes on their uses.|Timber Press. Oregon.|2002|0-88192-527-6|0
+273|Clematis - The Genus|Grey-Wilson. C.||5|1|An excellent and well illustrated concise guide to all the known specis of Clematis.|B. T. Batsford. London.|2000|0-7134-7659-1|0
+274|Illustrated Flora of North Central Texas|Diggs, Jnr. G.M.; Lipscomb. B. L. & O'Kennon. R. J|http://artemis.austincollege.edu/acad/bio/gdiggs/NCTXpdf.htm|4|1|An excellent flora, which is also available on-line.|Botanical Research Institute, Texas.|1999|1-889878-01-4|0
+275|Flora of Japan||www.foj.info|4|0|An on-line version of the flora - an excellent resource.||0||0
+276|Flora of California||www.calflora.org|3|0|An on-line database of the Californian flora, giving details on plant habitats and photos of the plants.||0||0
+277|Plants Database||http://plants.usda.gov|5|1|An online database with an excellent collection of fact sheets about native N. American plants.|United States Department of Agriculture|0||0
+278|Wattleseed|Lister. P.|www.uws.edu.au/vip/listerp/wattle.htm|3|1|A very interesting article on the internet about the Aboriginal uses of the Genus Acacia in Australia.||0||0
+279|Medicinal Plants in the Republic of Korea|||4|1|An excellent book with terse details about the medicinal uses of the plants with references to scientific trials. All plants are described, illustrated and brief details of habitats given.|World Health Organisation, Manila|1998|92 9061 120 0|0
