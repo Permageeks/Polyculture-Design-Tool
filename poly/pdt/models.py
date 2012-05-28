@@ -12,7 +12,7 @@ class MajorGroupAdmin(admin.ModelAdmin):
     list_display = ('name',)
 
 class Family(models.Model):
-    major_group = models.ForeignKey(MajorGroup)
+    major_group = models.ForeignKey(MajorGroup, blank=True, null=True)
     name = models.CharField(max_length=30)
 
     class Meta:
