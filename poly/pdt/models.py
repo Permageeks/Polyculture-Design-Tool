@@ -13,7 +13,7 @@ class MajorGroupAdmin(admin.ModelAdmin):
 
 class Family(models.Model):
     major_group = models.ForeignKey(MajorGroup, blank=True, null=True)
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=60)
 
     class Meta:
                 verbose_name_plural = 'Families'
@@ -26,7 +26,7 @@ class FamilyAdmin(admin.ModelAdmin):
 
 class Genus(models.Model):
     family = models.ForeignKey(Family, blank=True, null=True)
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=60)
     hybrid_marker = models.CharField(max_length=1, blank=True, null=True)
 
     class Meta:
@@ -368,12 +368,12 @@ class Plant(models.Model):
     MYCORRHIZAL_CHOICES = ( ('end', 'endomycorrhizal'), ('ect', 'ectomycorrhizal') )
     genus = models.ForeignKey(Genus)
     hybrid_marker = models.CharField(max_length=1, choices=HYBD_MKR_CHOICES, blank=True, null=True)
-    species = models.CharField(max_length=30)
+    species = models.CharField(max_length=60)
     common_name = models.ManyToManyField(CommonName, blank=True, null=True)
     botanical_synonym = models.ManyToManyField(BotanicalSynonym, blank=True, null=True)
     infraspecific_rank = models.CharField(max_length=10, choices=INFRA_RANK_CHOICES, blank=True, null=True)        
-    infraspecific_epithet = models.CharField(max_length=30, blank=True, null=True)
-    cultivar = models.CharField(max_length=30, blank=True, null=True)
+    infraspecific_epithet = models.CharField(max_length=60, blank=True, null=True)
+    cultivar = models.CharField(max_length=60, blank=True, null=True)
     growth_form = models.CharField(max_length=15, choices=GROWTH_FORM_CHOICES, blank=True, null=True)
     growth_rate = models.CharField(max_length=10, choices=GROWTH_RATE_CHOICES, blank=True, null=True)
     min_temp = models.IntegerField(blank=True, null=True)
@@ -419,7 +419,7 @@ class Plant(models.Model):
     root_type = models.ManyToManyField(RootType, blank=True, null=True)
     root_pattern = models.ManyToManyField(RootPattern, blank=True, null=True)
     poisonous = models.ManyToManyField(PoisonousPart, blank=True, null=True)
-    pfaf_height = models.DecimalField(max_digits=4, decimal_places=2, blank=True, null=True)
+    pfaf_height = models.DecimalField(max_digits=6, decimal_places=2, blank=True, null=True)
     accumulated_mineral = models.ManyToManyField(Mineral, blank=True, null=True)
     pfaf_latin_name = models.CharField(max_length=120, blank=True, null=True)
     pfaf_author = models.CharField(max_length=120, blank=True, null=True)
@@ -444,7 +444,7 @@ class Plant(models.Model):
     pfaf_alkaline = models.IntegerField(blank=True, null=True)
     pfaf_saline = models.IntegerField(blank=True, null=True)
     pfaf_wind = models.CharField(max_length=10, blank=True, null=True)
-    pfaf_growth_rate = models.CharField(max_length=30, blank=True, null=True)
+    pfaf_growth_rate = models.CharField(max_length=60, blank=True, null=True)
     pfaf_pollution = models.CharField(max_length=10, blank=True, null=True)
     pfaf_poor_soil = models.IntegerField(blank=True, null=True)
     pfaf_drought = models.IntegerField(blank=True, null=True)
@@ -452,11 +452,11 @@ class Plant(models.Model):
     pfaf_woodland = models.IntegerField(blank=True, null=True)
     pfaf_meadow = models.IntegerField(blank=True, null=True)
     pfaf_wall = models.IntegerField(blank=True, null=True)
-    pfaf_in_leaf = models.CharField(max_length=30, blank=True, null=True)
-    pfaf_flowering_time = models.CharField(max_length=30, blank=True, null=True)
-    pfaf_seed_ripens = models.CharField(max_length=30, blank=True, null=True)
+    pfaf_in_leaf = models.CharField(max_length=60, blank=True, null=True)
+    pfaf_flowering_time = models.CharField(max_length=60, blank=True, null=True)
+    pfaf_seed_ripens = models.CharField(max_length=60, blank=True, null=True)
     pfaf_flower_type = models.CharField(max_length=10, blank=True, null=True)
-    pfaf_pollinators = models.CharField(max_length=30, blank=True, null=True)
+    pfaf_pollinators = models.CharField(max_length=60, blank=True, null=True)
     pfaf_self_fertile = models.CharField(max_length=10, blank=True, null=True)
     pfaf_known_hazards = models.TextField(blank=True, null=True)
     pfaf_synonyms = models.TextField(blank=True, null=True)

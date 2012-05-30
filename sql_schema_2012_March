@@ -1,0 +1,423 @@
+BEGIN;
+CREATE TABLE "pdt_majorgroup" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "name" varchar(30) NOT NULL
+)
+;
+CREATE TABLE "pdt_family" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "major_group_id" integer NOT NULL REFERENCES "pdt_majorgroup" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "name" varchar(30) NOT NULL
+)
+;
+CREATE TABLE "pdt_genus" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "family_id" integer NOT NULL REFERENCES "pdt_family" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "name" varchar(30) NOT NULL,
+    "hybrid_marker" varchar(1) NOT NULL
+)
+;
+CREATE TABLE "pdt_botanicalsynonym" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "species" varchar(30) NOT NULL,
+    "infraspecific_rank" varchar(10) NOT NULL,
+    "infraspecific_epithet" varchar(30) NOT NULL,
+    "cultivar" varchar(30) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_nuisance" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "nuisance" varchar(10) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_botanicalauthor" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "lastname" varchar(40) NOT NULL,
+    "firstname" varchar(40) NOT NULL,
+    "firstname_initial" varchar(2) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_commonname" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "name" varchar(80) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_reproductivestrategy" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "strategy" varchar(10) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_ecozone" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "name" varchar(30) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_biome" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "ecozone_id" integer NOT NULL REFERENCES "pdt_ecozone" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "name" varchar(60) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_ecoregion" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "biome_id" integer NOT NULL REFERENCES "pdt_biome" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "name" varchar(60) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_vegetationcommunity" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "ecoregion_id" integer NOT NULL REFERENCES "pdt_ecoregion" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "name" varchar(80) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_nativeregion" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "ecoregion_id" integer NOT NULL REFERENCES "pdt_ecoregion" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_habitat" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "habitat" varchar(10) NOT NULL
+)
+;
+CREATE TABLE "pdt_ecologicalniche" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "name" varchar(80) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_waterneed" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "ecoregion_id" integer NOT NULL REFERENCES "pdt_ecoregion" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "water_needs" varchar(30) NOT NULL
+)
+;
+CREATE TABLE "pdt_plantpart" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "part" varchar(30) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_pollinationmechanism" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "mechanism" varchar(10) NOT NULL
+)
+;
+CREATE TABLE "pdt_medicinaluse" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "part_id" integer NOT NULL REFERENCES "pdt_plantpart" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "rating" varchar(30) NOT NULL,
+    "use" varchar(30) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_edibleuse" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "part_id" integer NOT NULL REFERENCES "pdt_plantpart" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "use" varchar(20) NOT NULL,
+    "rating" varchar(10) NOT NULL,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_otheruse" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "part_id" integer NOT NULL REFERENCES "pdt_plantpart" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "rating" varchar(30) NOT NULL,
+    "use" varchar(30) NOT NULL,
+    "notes" text NOT NULL
+)
+;
+CREATE TABLE "pdt_month" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "month" varchar(20) NOT NULL
+)
+;
+CREATE TABLE "pdt_fruitingtime" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "ecoregion_id" integer NOT NULL REFERENCES "pdt_ecoregion" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "start_month_id" integer NOT NULL REFERENCES "pdt_month" ("id") DEFERRABLE INITIALLY DEFERRED
+)
+;
+CREATE TABLE "pdt_vegetativegrowthtime" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "ecoregion_id" integer NOT NULL REFERENCES "pdt_ecoregion" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "start_month_id" integer NOT NULL REFERENCES "pdt_month" ("id") DEFERRABLE INITIALLY DEFERRED
+)
+;
+CREATE TABLE "pdt_floweringtime" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "ecoregion_id" integer NOT NULL REFERENCES "pdt_ecoregion" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "start_month_id" integer NOT NULL REFERENCES "pdt_month" ("id") DEFERRABLE INITIALLY DEFERRED
+)
+;
+CREATE TABLE "pdt_seedripeningtime" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "ecoregion_id" integer NOT NULL REFERENCES "pdt_ecoregion" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "start_month_id" integer NOT NULL REFERENCES "pdt_month" ("id") DEFERRABLE INITIALLY DEFERRED
+)
+;
+CREATE TABLE "pdt_rootpattern" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "name" varchar(30) NOT NULL
+)
+;
+CREATE TABLE "pdt_roottype" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "name" varchar(30) NOT NULL
+)
+;
+CREATE TABLE "pdt_plant_habitat" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "habitat_id" integer NOT NULL REFERENCES "pdt_habitat" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "habitat_id")
+)
+;
+CREATE TABLE "pdt_plant_reproductive_strategy" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "reproductivestrategy_id" integer NOT NULL REFERENCES "pdt_reproductivestrategy" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "reproductivestrategy_id")
+)
+;
+CREATE TABLE "pdt_plant_vegetative_growth_time" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "vegetativegrowthtime_id" integer NOT NULL REFERENCES "pdt_vegetativegrowthtime" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "vegetativegrowthtime_id")
+)
+;
+CREATE TABLE "pdt_plant_common_name" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "commonname_id" integer NOT NULL REFERENCES "pdt_commonname" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "commonname_id")
+)
+;
+CREATE TABLE "pdt_plant_root_pattern" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "rootpattern_id" integer NOT NULL REFERENCES "pdt_rootpattern" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "rootpattern_id")
+)
+;
+CREATE TABLE "pdt_plant_root_type" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "roottype_id" integer NOT NULL REFERENCES "pdt_roottype" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "roottype_id")
+)
+;
+CREATE TABLE "pdt_plant_vegetation_community" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "vegetationcommunity_id" integer NOT NULL REFERENCES "pdt_vegetationcommunity" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "vegetationcommunity_id")
+)
+;
+CREATE TABLE "pdt_plant_seed_ripening_time" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "seedripeningtime_id" integer NOT NULL REFERENCES "pdt_seedripeningtime" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "seedripeningtime_id")
+)
+;
+CREATE TABLE "pdt_plant_other_use" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "otheruse_id" integer NOT NULL REFERENCES "pdt_otheruse" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "otheruse_id")
+)
+;
+CREATE TABLE "pdt_plant_flowering_time" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "floweringtime_id" integer NOT NULL REFERENCES "pdt_floweringtime" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "floweringtime_id")
+)
+;
+CREATE TABLE "pdt_plant_pollination_mechanism" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "pollinationmechanism_id" integer NOT NULL REFERENCES "pdt_pollinationmechanism" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "pollinationmechanism_id")
+)
+;
+CREATE TABLE "pdt_plant_edible_use" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "edibleuse_id" integer NOT NULL REFERENCES "pdt_edibleuse" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "edibleuse_id")
+)
+;
+CREATE TABLE "pdt_plant_botanical_synonym" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "botanicalsynonym_id" integer NOT NULL REFERENCES "pdt_botanicalsynonym" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "botanicalsynonym_id")
+)
+;
+CREATE TABLE "pdt_plant_fruiting_time" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "fruitingtime_id" integer NOT NULL REFERENCES "pdt_fruitingtime" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "fruitingtime_id")
+)
+;
+CREATE TABLE "pdt_plant_medicinal_use" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "medicinaluse_id" integer NOT NULL REFERENCES "pdt_medicinaluse" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "medicinaluse_id")
+)
+;
+CREATE TABLE "pdt_plant_nuisance" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "nuisance_id" integer NOT NULL REFERENCES "pdt_nuisance" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "nuisance_id")
+)
+;
+CREATE TABLE "pdt_plant_ecological_niche" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "ecologicalniche_id" integer NOT NULL REFERENCES "pdt_ecologicalniche" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "ecologicalniche_id")
+)
+;
+CREATE TABLE "pdt_plant_botanical_author" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "botanicalauthor_id" integer NOT NULL REFERENCES "pdt_botanicalauthor" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "botanicalauthor_id")
+)
+;
+CREATE TABLE "pdt_plant_plant_part" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "plantpart_id" integer NOT NULL REFERENCES "pdt_plantpart" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "plantpart_id")
+)
+;
+CREATE TABLE "pdt_plant_native_region" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "nativeregion_id" integer NOT NULL REFERENCES "pdt_nativeregion" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "nativeregion_id")
+)
+;
+CREATE TABLE "pdt_plant_water_need" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL,
+    "waterneed_id" integer NOT NULL REFERENCES "pdt_waterneed" ("id") DEFERRABLE INITIALLY DEFERRED,
+    UNIQUE ("plant_id", "waterneed_id")
+)
+;
+CREATE TABLE "pdt_plant" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "genus_id" integer NOT NULL REFERENCES "pdt_genus" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "hybrid_marker" varchar(1),
+    "species" varchar(30) NOT NULL,
+    "infraspecific_rank" varchar(10),
+    "infraspecific_epithet" varchar(30),
+    "cultivar" varchar(30),
+    "growth_form" varchar(15),
+    "growth_rate" varchar(10),
+    "min_temp" integer,
+    "max_temp" integer,
+    "shade_tolerant" boolean,
+    "drought_tolerant" boolean,
+    "salt_tolerant" boolean,
+    "pollution_tolerant" boolean,
+    "waterlogging_tolerant" boolean,
+    "min_ph" numeric(2, 2),
+    "max_ph" numeric(2, 2),
+    "preferred_pf" numeric(2, 2),
+    "carbon_path" varchar(3),
+    "leaf_shape" varchar(10),
+    "leaf_type" varchar(20),
+    "self_fertile" boolean,
+    "coppices" boolean,
+    "nitrogen_fixer" varchar(20),
+    "leaf_odour" varchar(20),
+    "spines" varchar(20),
+    "wildlife_shelter" boolean,
+    "wildlife_food" boolean,
+    "nectary" varchar(20),
+    "cultivation_notes" text,
+    "mycorrhizal_association" varchar(20)
+)
+;
+ALTER TABLE "pdt_plant_habitat" ADD CONSTRAINT "plant_id_refs_id_f3e4031d" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_reproductive_strategy" ADD CONSTRAINT "plant_id_refs_id_59228a5c" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_vegetative_growth_time" ADD CONSTRAINT "plant_id_refs_id_6a8ddff" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_common_name" ADD CONSTRAINT "plant_id_refs_id_4a2944d5" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_root_pattern" ADD CONSTRAINT "plant_id_refs_id_a1823b62" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_root_type" ADD CONSTRAINT "plant_id_refs_id_ea90cead" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_vegetation_community" ADD CONSTRAINT "plant_id_refs_id_1fd4a4d9" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_seed_ripening_time" ADD CONSTRAINT "plant_id_refs_id_f18da749" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_other_use" ADD CONSTRAINT "plant_id_refs_id_f849802c" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_flowering_time" ADD CONSTRAINT "plant_id_refs_id_550741ea" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_pollination_mechanism" ADD CONSTRAINT "plant_id_refs_id_f8be7d2b" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_edible_use" ADD CONSTRAINT "plant_id_refs_id_43e891c4" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_botanical_synonym" ADD CONSTRAINT "plant_id_refs_id_f14a70bf" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_fruiting_time" ADD CONSTRAINT "plant_id_refs_id_36182be4" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_medicinal_use" ADD CONSTRAINT "plant_id_refs_id_fce1cbc2" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_nuisance" ADD CONSTRAINT "plant_id_refs_id_710ae447" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_ecological_niche" ADD CONSTRAINT "plant_id_refs_id_c5df0a9" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_botanical_author" ADD CONSTRAINT "plant_id_refs_id_227d5018" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_plant_part" ADD CONSTRAINT "plant_id_refs_id_12c83896" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_native_region" ADD CONSTRAINT "plant_id_refs_id_cf482206" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE "pdt_plant_water_need" ADD CONSTRAINT "plant_id_refs_id_9c349031" FOREIGN KEY ("plant_id") REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED;
+CREATE TABLE "pdt_poisonous" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "part_id" integer NOT NULL REFERENCES "pdt_plantpart" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_mineral" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "name" varchar(20) NOT NULL
+)
+;
+CREATE TABLE "pdt_dynamicaccumulator" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "plant_id" integer NOT NULL REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "mineral_id" integer NOT NULL REFERENCES "pdt_mineral" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "notes" text
+)
+;
+CREATE TABLE "pdt_datasetsource" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "name" varchar(30) NOT NULL,
+    "data" varchar(100) NOT NULL
+)
+;
+CREATE TABLE "pdt_databaseplant" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "dataset_source_id" integer NOT NULL REFERENCES "pdt_datasetsource" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "plant_id" integer NOT NULL REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED
+)
+;
+CREATE TABLE "pdt_user" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "name" varchar(30) NOT NULL
+)
+;
+CREATE TABLE "pdt_userplant" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "user_id" integer NOT NULL REFERENCES "pdt_user" ("id") DEFERRABLE INITIALLY DEFERRED,
+    "plant_id" integer NOT NULL REFERENCES "pdt_plant" ("id") DEFERRABLE INITIALLY DEFERRED
+)
+;
+COMMIT;
