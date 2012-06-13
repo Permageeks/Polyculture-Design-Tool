@@ -3,10 +3,10 @@
 csv_filepathname="/home/harry/python/poly/dev/pfaf_species_utf8.csv"
 DEBUG = True
 
-your_djangoproject_home="/home/harry/python/poly/"
+django_project="/home/harry/python/poly/"
 
 import sys,os
-sys.path.append(your_djangoproject_home)
+sys.path.append(django_project)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'poly.settings'
 
 from poly.pdt.models import Plant, Genus, Family, CommonName
@@ -18,13 +18,13 @@ headers = dataReader.next()
 rowdicts = [dict(zip(headers, row)) for row in dataReader]
 
 for row in rowdicts:
-        #IMPORT HARMONISED FIELDS
+        #HARMONISED FIELDS
+        # assign required model objects
         family = Family()
         genus = Genus()
         plant = Plant()
         common_name = CommonName()
 
-        latin_name_parts = row['Latin name'].split()
         #family
         family_name = row['Family']
         families = Family.objects.filter(name=family_name)
@@ -39,6 +39,9 @@ for row in rowdicts:
             family.name = family_name
             if DEBUG: print "family " + family_name + " does not exist"
         family.save()
+        
+        # preprocess PFAF "Latin name" field" - split into genus and species.
+        latin_name_parts = row['Latin name'].split()
 
         #genus
         genus_name = latin_name_parts[0]
@@ -86,7 +89,8 @@ for row in rowdicts:
             plant.genus = genus
             plant.species = plant_species
             plant.save()
-            plant.common_name = [common_name]
+            plant.common_name = common_name
+            plant.cultivation_notes = row['Cultivation details']
             plant.save()
             #INSERT UNHARMONISED FIELDS
             if row['Author']: plant.pfaf_author = row['Author']
@@ -126,7 +130,6 @@ for row in rowdicts:
             if row['Self-fertile']: plant.pfaf_self_fertile = row['Self-fertile']
             if row['Known hazards']: plant.pfaf_known_hazards = row['Known hazards']
             if row['Synonyms']: plant.pfaf_synonyms = row['Synonyms']
-            if row['Cultivation details']: plant.pfaf_cultivation_details = row['Cultivation details']
             if row['Edible uses']: plant.pfaf_edible_uses = row['Edible uses']
             if row['Uses notes']: plant.pfaf_uses_notes = row['Uses notes']
             if row['Propagation 1']: plant.pfaf_propagation_1 = row['Propagation 1']

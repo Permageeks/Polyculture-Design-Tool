@@ -379,6 +379,8 @@ class Plant(models.Model):
     min_temp = models.IntegerField(blank=True, null=True)
     max_temp = models.IntegerField(blank=True, null=True)
     shade_tolerant = models.NullBooleanField(blank=True, null=True)
+    height = models.DecimalField(max_digits=3, decimal_places=2, blank=True, null=True)
+    width = models.DecimalField(max_digits=3, decimal_places=2, blank=True, null=True)
     drought_tolerant = models.NullBooleanField(blank=True, null=True)
     salt_tolerant = models.NullBooleanField(blank=True, null=True)
     pollution_tolerant = models.NullBooleanField(blank=True, null=True)
